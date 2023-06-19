@@ -1,6 +1,6 @@
 name: Cloudcoria
 defaulttheme: NorthClientTheme
-logo: https://media.discordapp.net/attachments/984837636457918465/1000014634012647464/giphy.gif
+logo: https://cdn.discordapp.com/attachments/1082282302400364635/1120207721824784446/IMG_20230615_110202_214-removebg-preview.png
 version: 2.0.0
 website:
   port: 9000
@@ -56,7 +56,7 @@ status:
   script: https://status.cloudcoria.eu
 
 stripe:
-  enabled: true  
+  enabled: true
   key: 0000000000 # Replace this with your Stripe API Key
   coins: 25 # Coins per amount in USD
   amount: 1
@@ -70,7 +70,7 @@ smtp:
 
 api:
   server:
-    enabled: true
+    enabled: false
     key: API KEY
   client:
     j4r: 
