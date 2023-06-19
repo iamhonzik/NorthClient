@@ -28,7 +28,7 @@ guildblacklist:
 
 pterodactyl: ##go to ur panel get a api
   domain: test.cloudcoria.eu
-  key: ptlc_SO7f2lLEXxZ0dOF7OplhrwpJcO37MxcHy4puwXLgCW2
+  key: ptla_BjkZwe35i3SYerWjXWYdWWjJrssyAU2ptteAj8qHU3t
 
 AFK Party: 
   enabled: false
