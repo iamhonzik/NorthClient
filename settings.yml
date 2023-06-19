@@ -1,4 +1,4 @@
-name: NorthClient
+name: Cloudcoria
 defaulttheme: NorthClientTheme
 logo: https://media.discordapp.net/attachments/984837636457918465/1000014634012647464/giphy.gif
 version: 2.0.0
@@ -7,7 +7,7 @@ website:
   secret: Example Secret
 
 data:
- email: "Support@NorthHost.de"
+ email: "podpora@cloudcoria.eu"
  number: "+49 1567 120321235"
 
 gift:
@@ -15,7 +15,7 @@ gift:
 
 discordserver:
   enabled: true
-  invitelink: https://discord.gg/c2V7NKKWCT
+  invitelink: https://dsc.gg/cloudcoria
 
 ads:
   enabled: false
@@ -27,8 +27,8 @@ guildblacklist:
   - ServerID
 
 pterodactyl: ##go to ur panel get a api
-  domain: https://panel.example.de
-  key: ptla_yourexamplepteroapi
+  domain: test.cloudcoria.eu
+  key: ptlc_SO7f2lLEXxZ0dOF7OplhrwpJcO37MxcHy4puwXLgCW2
 
 AFK Party: 
   enabled: false
@@ -47,18 +47,18 @@ changelog:
     sent: sent 20.07.2022
 
 linkvertise: ##go to https://publisher.linkvertise.com/ to get ur userid
-  enabled: true
+  enabled: false
   userid: 00000
   coins: 25
 
 status:
   enabled: true
-  script: https://example.com
+  script: https://status.cloudcoria.eu
 
 stripe:
   enabled: true  
   key: 0000000000 # Replace this with your Stripe API Key
-  coins: 200 # Coins per amount in USD
+  coins: 25 # Coins per amount in USD
   amount: 1
 
 smtp:
@@ -76,22 +76,22 @@ api:
     j4r: 
       enabled: true
       ads:
-      - name: Example Server 1
+      - name: Startic Network
         id: 984837635879104602
         invite: https://discord.gg/c2V7NKKWCT
-        coins: 50
-      - name: Example Server 2
+        coins: 5
+      - name: Cloudcoria
         id: 984837635879104602
-        invite: https://discord.gg/c2V7NKKWCT
-        coins: 50
-      - name: Example Server 3
+        invite: https://dsc.gg/cloudcoria
+        coins: 5
+      - name: Cloudcoria
         id: 984837635879104602
-        invite: https://discord.gg/c2V7NKKWCT
-        coins: 50
-      - name: Example Server 4
+        invite: https://dsc.gg/cloudcoria
+        coins: 5
+      - name: Cloudcoria
         id: 984837635879104602
-        invite: https://discord.gg/c2V7NKKWCT
-        coins: 50
+        invite: https://dsc.gg/cloudcoria
+        coins: 5
 
     Role Packages:
       enabled: false
